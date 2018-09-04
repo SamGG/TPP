@@ -26,10 +26,6 @@
 #' @param overview logical. Generate summary pdfs?
 #' @param returnPlots logical. Should the ggplot objects be returned as well?
 #' @param control a list of general settings. 
-#' @param maxRank DEPRECATED
-#' @param highlightBelow DEPRECATED
-#' @param plotIndividual DEPRECATED
-#' @param plotAlphabetical DEPRECATED
 #' Contains the following fields:
 #' \itemize{ 
 #' \item{\code{nCores}: number of CPUs for parallel production of plots per 
@@ -40,6 +36,10 @@
 #' for which a protein is highlighted by a different background color if 
 #' \code{overview = TRUE} (default: 0.05)}
 #' }
+#' @param maxRank DEPRECATED
+#' @param highlightBelow DEPRECATED
+#' @param plotIndividual DEPRECATED
+#' @param plotAlphabetical DEPRECATED
 #' 
 #' @details Plots of the natural spline fits will be stored in a subfolder with 
 #' name \code{Spline_Fits} at the location specified by \code{resultPath}.
