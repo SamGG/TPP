@@ -72,7 +72,7 @@ library("TPP")
 The \Rpackage{TPP} package uses the \Rpackage{openxlsx} package to produce Excel 
 output \cite{openxlsx}. \Rpackage{openxlsx} requires a zip application to be 
 installed on your system and to be included in the path. On Windows, such a zip 
-application ist not installed by default, but is available, for example, via 
+application is not installed by default, but is available, for example, via 
 \href{http://cran.r-project.org/bin/windows/Rtools/}{Rtools}. Without the zip 
 application, you can still use the 'TPP' package and access its results via the 
 dataframes produced by the main functions. 
